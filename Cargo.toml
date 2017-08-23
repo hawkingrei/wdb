@@ -6,10 +6,13 @@ authors = ["真人 <weizhen.wang@duitang.com>"]
 [features]
 static-link = ["rocksdb/static-link"]
 
+[[test]]
+name = "test"
+path = "tests/test.rs"
+
 [dependencies.rocksdb]
 git = "https://github.com/pingcap/rust-rocksdb.git"
 
-
 [dependencies]
 libc = "0.2"
-
+tempdir = "0.3.4"
