@@ -2,3 +2,4 @@ extern crate rocksdb;
 extern crate tempdir;
 
 mod test_iterator;
+mod test_multithreaded;
