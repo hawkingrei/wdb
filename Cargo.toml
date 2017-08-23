@@ -1,0 +1,15 @@
+[package]
+name = "wdb"
+version = "0.1.0"
+authors = ["真人 <weizhen.wang@duitang.com>"]
+
+[features]
+static-link = ["rocksdb/static-link"]
+
+[dependencies.rocksdb]
+git = "https://github.com/pingcap/rust-rocksdb.git"
+
+
+[dependencies]
+libc = "0.2"
+
