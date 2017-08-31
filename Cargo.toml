@@ -16,3 +16,7 @@ git = "https://github.com/pingcap/rust-rocksdb.git"
 [dependencies]
 libc = "0.2"
 tempdir = "0.3.4"
+crc = "1.2"
+
+[dev-dependencies]
+byteorder = "1.0.0"
