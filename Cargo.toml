@@ -14,6 +14,7 @@ path = "tests/test.rs"
 git = "https://github.com/pingcap/rust-rocksdb.git"
 
 [dependencies]
+clippy = {version = "*", optional = true}
 libc = "0.2"
 tempdir = "0.3.4"
 crc = "1.2"
