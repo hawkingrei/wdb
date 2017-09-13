@@ -1,3 +1,19 @@
-dist: trusty
-sudo: false
 language: rust
+dist: trusty
+sudo: required
+rust:
+- beta
+- nightly
+- stable
+
+
+cache:
+  directories:
+  - target
+
+os:
+  - linux
+
+script:
+- cargo build --features static-link
+- cargo test --all --features static-link
