@@ -19,5 +19,8 @@ libc = "0.2"
 tempdir = "0.3.4"
 crc = "1.2"
 
+[[bin]]
+name = "wdb"
+
 [dev-dependencies]
 byteorder = "1.0.0"
